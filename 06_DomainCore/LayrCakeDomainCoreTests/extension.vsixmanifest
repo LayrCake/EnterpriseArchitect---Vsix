@@ -3,13 +3,18 @@
     <Identity Id="LayrCake.Vsix.DomainCore.Tests.d2cf26fc-7cac-42ec-8815-a22921e4b8bd" Version="1.2" Language="en-US" Publisher="LayrCake" />
     <DisplayName>LayrCake DomainCore Tests Project Template</DisplayName>
     <Description xml:space="preserve">LayrCake - DomainCore Tests project template</Description>
+    <MoreInfo>http://www.LayrCake.com</MoreInfo>
+    <License>LICENSE.txt</License>
+    <GettingStartedGuide>Coming Soon</GettingStartedGuide>
+    <ReleaseNotes>Coming Soon</ReleaseNotes>
+    <Icon>LogoLayrCake_820.png</Icon>
     <Tags>LayrCake, LayrCake DomainCore Tests</Tags>
   </Metadata>
   <Installation>
-    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0, 15.0]" />
-    <InstallationTarget Id="Microsoft.VisualStudio.Premium" Version="[11.0, 15.0]" />
-    <InstallationTarget Id="Microsoft.VisualStudio.Ultimate" Version="[11.0, 15.0]" />
-    <InstallationTarget Version="[11.0, 15.0]" Id="Microsoft.VisualStudio.Community" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0, 14.0]" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Premium" Version="[11.0, 14.0]" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Ultimate" Version="[11.0, 14.0]" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[11.0, 14.0]" />
   </Installation>
   <Dependencies>
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" Version="4.5" />
