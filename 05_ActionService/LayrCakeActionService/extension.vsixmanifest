@@ -1,0 +1,20 @@
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Id="LayrCake.Vsix.ActionService..8e394cf8-0ef3-405a-8990-756ae52b44dc" Version="1.2" Language="en-US" Publisher="LayrCake" />
+    <DisplayName>LayrCake ActionService Project Template</DisplayName>
+    <Description xml:space="preserve">LayrCake - ActionService project template</Description>
+    <Tags>LayrCake, LayrCake ActionService</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0, 15.0]" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Premium" Version="[11.0, 15.0]" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Ultimate" Version="[11.0, 15.0]" />
+    <InstallationTarget Version="[11.0, 15.0]" Id="Microsoft.VisualStudio.Community" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" Path="ProjectTemplates" />
+  </Assets>
+</PackageManifest>

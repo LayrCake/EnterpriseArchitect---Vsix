@@ -1,0 +1,19 @@
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Id="LayrCake.Vsix.RestfulApi.bfdf6c5a-8efc-43b3-89f4-ee79de59908d" Version="1.2" Language="en-US" Publisher="LayrCake" />
+    <DisplayName>LayrCake RestApi Project Template</DisplayName>
+    <Description xml:space="preserve">LayrCake - RestApi project template</Description>
+    <Tags>LayrCake, LayrCake RestApi</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[11.0, 15.0]" />
+    <InstallationTarget Version="[11.0, 15.0]" Id="Microsoft.VisualStudio.Pro" />
+    <InstallationTarget Version="[11.0, 15.0]" Id="Microsoft.VisualStudio.Enterprise" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" Path="ProjectTemplates" />
+  </Assets>
+</PackageManifest>
